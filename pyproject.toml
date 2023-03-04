@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "restricted_partition"
-version = "0.1.0"
+version = "0.1.1"
 description = "Integer partitions with an optional max length"
 authors = ["Shay Hill <shay_public@hotmail.com>"]
 license = "MIT"
@@ -18,7 +18,7 @@ pre-commit = "^3.1.1"
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.1.0"
+version = "0.1.1"
 tag_format = "$version"
 version_files = [
     "pyproject.toml:^version"
